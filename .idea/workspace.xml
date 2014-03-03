@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ee45ea-d796-41e9-914a-8a68e0e3b95d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jasmine-2.0.0/jasmine_favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/GuessSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpecRunner.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jasmine-2.0.0/boot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jasmine-2.0.0/console.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/guess_number.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jasmine-2.0.0/jasmine-html.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jasmine-2.0.0/jasmine.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jasmine-2.0.0/jasmine.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/GuessSpec.js" afterPath="$PROJECT_DIR$/spec/compare_numbers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpecRunner.html" afterPath="$PROJECT_DIR$/SpecRunner.html" />
     </list>
     <ignored path="guess_number.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,19 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpecRunner.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SpecRunner.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpecRunner.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="52" selection-start="808" selection-end="808" vertical-scroll-proportion="0.4823386" vertical-offset="0" max-vertical-offset="821">
+            <state line="16" column="58" selection-start="690" selection-end="690" vertical-scroll-proportion="-11.354838" vertical-offset="0" max-vertical-offset="638">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuessSpec.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/GuessSpec.js">
+      <file leaf-file-name="compare_numbers.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/compare_numbers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+            <state line="17" column="56" selection-start="650" selection-end="650" vertical-scroll-proportion="0.43896714" vertical-offset="0" max-vertical-offset="852">
               <folding />
             </state>
           </provider>
@@ -80,6 +68,7 @@
       <list>
         <option value="$PROJECT_DIR$/spec/GuessSpec.js" />
         <option value="$PROJECT_DIR$/SpecRunner.html" />
+        <option value="$PROJECT_DIR$/spec/compare_numbers.js" />
       </list>
     </option>
   </component>
@@ -219,16 +208,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/GuessSpec.js">
+    <entry file="file://$PROJECT_DIR$/SpecRunner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+        <state line="16" column="58" selection-start="690" selection-end="690" vertical-scroll-proportion="-11.354838" vertical-offset="0" max-vertical-offset="638">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpecRunner.html">
+    <entry file="file://$PROJECT_DIR$/spec/compare_numbers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="52" selection-start="808" selection-end="808" vertical-scroll-proportion="0.4823386" vertical-offset="0" max-vertical-offset="821">
+        <state line="17" column="56" selection-start="650" selection-end="650" vertical-scroll-proportion="0.43896714" vertical-offset="0" max-vertical-offset="852">
           <folding />
         </state>
       </provider>
