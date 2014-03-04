@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77ee45ea-d796-41e9-914a-8a68e0e3b95d" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spec/GuessSpec.js" afterPath="$PROJECT_DIR$/spec/compare_numbers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpecRunner.html" afterPath="$PROJECT_DIR$/SpecRunner.html" />
-    </list>
+    <list default="true" id="77ee45ea-d796-41e9-914a-8a68e0e3b95d" name="Default" comment="" />
     <ignored path="guess_number.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,7 +44,7 @@
       <file leaf-file-name="compare_numbers.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/compare_numbers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="56" selection-start="650" selection-end="650" vertical-scroll-proportion="0.43896714" vertical-offset="0" max-vertical-offset="852">
+            <state line="14" column="50" selection-start="578" selection-end="578" vertical-scroll-proportion="0.36150235" vertical-offset="0" max-vertical-offset="852">
               <folding />
             </state>
           </provider>
@@ -217,7 +214,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/compare_numbers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="56" selection-start="650" selection-end="650" vertical-scroll-proportion="0.43896714" vertical-offset="0" max-vertical-offset="852">
+        <state line="14" column="50" selection-start="578" selection-end="578" vertical-scroll-proportion="0.36150235" vertical-offset="0" max-vertical-offset="852">
           <folding />
         </state>
       </provider>
