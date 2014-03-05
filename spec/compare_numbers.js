@@ -15,14 +15,3 @@ describe("compare_numbers", function() {
         expect(compare("1234", "1230")).toEqual("3A0B");
     });
 });
-describe("get random number more than 10000", function() {
-    it("number is random", function() {
-        expect(compare(get_random(), get_random())).not.toEqual('4A0B');
-    });
-    it("should get four random numbers", function() {
-        expect(get_random().length).toEqual(4);
-    });
-    it("should get four different random numbers", function() {
-        expect(is_different(get_random())).toEqual(true);
-    });
-});
