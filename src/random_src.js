@@ -46,3 +46,19 @@ function is_every_digit_different(random_number) {
     }
     return true;
 }
+
+function is_random(get_random) {
+    if (typeof get_random == function) {
+        var get_random = get_random();
+    }
+    var repeat_count = 0;
+    for (var i = 0; i < 50; i++) {
+        if (compare(get_random(), get_random()) == "4A0B") {
+            repeat_count++;
+        }
+    }
+    if (repeat_count > 40) {
+        return true;
+    }
+    return false;
+}
