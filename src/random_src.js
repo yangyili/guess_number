@@ -32,33 +32,3 @@ function get_random() {
 
     return result;
 }
-
-function is_every_digit_different(random_number) {
-    var random_str = random_number.toString();
-    var random_array = random_str.split("");
-    var random_arr_length = random_array.length;
-    for(var i = 0; i < random_arr_length; i++) {
-        for(var j = i + 1;j < random_arr_length.length; j++) {
-            if (random_array[i] == random_array[j]) {
-                return false;
-            }
-        }
-    }
-    return true;
-}
-
-function is_random(get_random) {
-    if (typeof get_random == function) {
-        var get_random = get_random();
-    }
-    var repeat_count = 0;
-    for (var i = 0; i < 50; i++) {
-        if (compare(get_random(), get_random()) == "4A0B") {
-            repeat_count++;
-        }
-    }
-    if (repeat_count > 40) {
-        return true;
-    }
-    return false;
-}
