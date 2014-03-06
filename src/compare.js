@@ -14,5 +14,5 @@ function compare(number1, number2) {
             }
         }
     }
-    return A+"A"+B+"B";
+    return a_count+"A"+b_count+"B";
 }

@@ -3,7 +3,7 @@ describe("get a random number which has four digit", function() {
         expect(typeof get_random()).toEqual('number');
     });
     it("the random number should has four digit", function() {
-        expect(get_random().toString.length).toEqual(4);
+        expect((get_random().toString()).length).toEqual(4);
     });
     it("number is random", function() {
         expect(is_random(get_random)).toEqual(true);
