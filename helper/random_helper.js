@@ -1,9 +1,9 @@
 function is_every_digit_different(random_number) {
-    var random_str = random_number.toString();
+    var random_str = typeof random_number == 'number'?random_number.toString():random_number;
     var random_array = random_str.split("");
     var random_arr_length = random_array.length;
     for(var i = 0; i < random_arr_length; i++) {
-        for(var j = i + 1;j < random_arr_length.length; j++) {
+        for(var j = i + 1;j < random_arr_length; j++) {
             if (random_array[i] == random_array[j]) {
                 return false;
             }
