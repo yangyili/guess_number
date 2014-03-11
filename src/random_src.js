@@ -1,22 +1,27 @@
 function get_random() {
+    var results = [];
     do {
-        var result = get_one_random().toString();
-    } while(result === '0');
+        results[0] = get_one_random();
+    } while(results[0] == 0);
 
-    var is_different = 0;
-    for (var i = 0; i < 3; i++) {
-        result += get_one_random().toString();
-        is_different = is_every_digit_different(result);
-        if (!is_different) {
-            result.substr(0, result.length - 1);
-            i--;
-        }
-    }
+    do {
+        results[1] = get_one_random();
+    } while(results[0] == results[1]);
+
+    do {
+        results[2] = get_one_random();
+    } while(results[2] == results[0] || results[2] == results[1]);
+
+    do {
+        results[3] = get_one_random();
+    } while(results[3] == results[0] || results[3] == results[1] || results[3] == results[2]);
 
     var resultNum = 0;
-    for(var i = 0; i < result.length; i++) {
-        resultNum += parseInt(result[i]) * Math.pow(10, 3 - i);
+    for(var i = 0; i < results.length; i++) {
+        resultNum += parseInt(results[i]) * Math.pow(10, 3 - i);
     }
+
+    console.log(resultNum);
 
     return resultNum;
 }
