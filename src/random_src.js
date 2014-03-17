@@ -21,7 +21,5 @@ function get_random() {
         resultNum += parseInt(results[i]) * Math.pow(10, 3 - i);
     }
 
-    console.log(resultNum);
-
     return resultNum;
 }

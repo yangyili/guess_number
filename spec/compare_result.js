@@ -1,14 +1,9 @@
 describe("compare one given four_digit_number to a random", function() {
-    var foo;
     beforeEach(function() {
-        foo = {
-                compare: function() {
-                return "0A1B";
-            }
-        }
+        spyOn(window, 'get_random').and.returnValue(1234);
     });
-    spyOn(foo, 'compare');
-    it("should return 0A1B compare '3798' to '1234'", function() {
-        expect(foo().toEqual('0A1B'));
+
+    it("should return 4A0B compare '1234' to 'a random'", function() {
+        expect(guess_number(get_random(), '2341')).toEqual('0A4B');
     });
 });
